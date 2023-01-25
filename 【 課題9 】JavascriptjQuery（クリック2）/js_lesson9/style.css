@@ -1,0 +1,35 @@
+
+.flexTestItem {
+  padding: 10px;
+  margin:  40px;
+  cursor: pointer;
+  background-color:  #0026ff;
+  justify-content: space-around; /*--アイテムの配置する位置を指定する--*/
+}
+
+/* フォントの太さ */
+h1{
+  font-weight:bold; 
+  color:black;
+  text-align: center;
+}
+
+button {
+  width: 400px;
+  height: 300px;
+  border: 1px solid ;
+}
+
+.active {
+  background-color: red;
+}
+
+.centeringItem {
+  display: flex;
+  justify-content:center;
+  top:  0;                     /* 位置指定 */
+  bottom:  0;                  /* 位置指定 */
+  left:  0;                    /* 位置指定 */
+  right:  0;                   /* 位置指定 */
+  margin:  auto;               /* 中央寄せ */
+}

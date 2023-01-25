@@ -1,0 +1,46 @@
+
+
+.flexTestBox {
+  display: flex; /*並列になるスタイル*/
+}
+
+.flexTestItem {
+
+  justify-content: space-flex-start; /*--アイテムの配置する位置を指定する--*/
+}
+
+.flexTestItem:nth-child(1) { 
+  width: 100%;
+  height: 300px;
+  background-color:  #0026ff;
+}
+
+.flexTestItem:nth-child(2) {
+  width: 100%;
+  height: 300px;
+  background-color:  #ff0000;
+}
+
+/* スクリーンサイズが1000px以下の場合に適用 */
+@media screen and (max-width: 1000px){
+
+.flexTestBox {
+  flex-flow: column; /*flexアイテムを縦並びにする*/
+}
+
+.flexTestItem {
+
+  justify-content: space-flex-start; /*--アイテムの配置する位置を指定する--*/
+}
+
+.flexTestItem:nth-child(1) { 
+  width: 100%;
+  height: 300px;
+  background-color:  #0026ff;
+}
+
+.flexTestItem:nth-child(2) {
+  width: 100%;
+  height: 300px;
+  background-color:  #ff0000;
+}}

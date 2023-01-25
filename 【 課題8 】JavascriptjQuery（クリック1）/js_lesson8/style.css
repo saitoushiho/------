@@ -1,0 +1,19 @@
+.parent{
+    position :absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* 要素を水平方向や垂直方向で再配置 */
+    width: 400px;
+    height: 300px;
+    color: rgba(0, 0, 0, 0.2);
+    background-color: blue;
+    cursor: pointer; /* マウスカーソルをリンクポインタに指定します。 */
+}
+
+h1{
+   font-weight:bold; /* フォントの太さ */
+   color:black;
+}

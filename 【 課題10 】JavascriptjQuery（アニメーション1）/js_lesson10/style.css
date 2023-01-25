@@ -1,0 +1,29 @@
+h1{
+  text-align: center;
+  font-weight:bold; /* フォントの太さ */
+  color:black;
+}
+
+#anime_test{
+	display: flex;
+	cursor: pointer;
+    height: 300px;
+    width: 400px;
+    background-color: #0026ff;
+    position: relative;
+    left: 0;
+    transition: 2s;
+	justify-content: center;
+	align-items: center;
+}
+#anime_test.active {
+    transform: translate(500px, 300px);
+}
+
+.anime_test-btn {
+    margin-top:  10px;
+    display:  inline-block;
+    padding:  5px 10px;
+    border: solid 1px;
+    cursor:  pointer;
+}

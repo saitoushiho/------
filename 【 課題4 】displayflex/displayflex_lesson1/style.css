@@ -1,0 +1,24 @@
+.flexTestBox {
+  background-color: #000000;
+  padding:  40px;
+  display: flex;
+
+}
+
+.flexTestItem {
+  padding: 10px;
+  margin:  40px;
+  justify-content: space-around; /*--アイテムの配置する位置を指定する--*/
+}
+
+.flexTestItem:nth-child(1) { /*--nth-childは疑似クラス(N番目の要素に適用したいときにつかう) --*/
+  width: 400px;
+  height: 300px;
+  background-color:  #0026ff;
+}
+
+.flexTestItem:nth-child(2) {
+  width: 400px;
+  height: 300px;
+  background-color:  #ff0000;
+}
