@@ -14,16 +14,44 @@
 
 <body>
 
-    <div class="container">
-        <div class="child">
-            <input type=text id="textBox" size=25>
-            <input type=button Value="ボタン" onClick="onDisplay()">
-
-            <div class="outPutClass" id="outPut"></div>
-        </div>
-
-    </div>
-
+    <!-- headerここから -->
+    <header>
+        <h1 class="title">Cafe</h1>
+        <nav class="nav">
+            <ul class="menu-group">
+                <li class="menu-item"><a class="aLink" href="#">News</a></li>
+                <li class="menu-item"><a class="aLink" href="#">Gallery</a></li>
+                <li class="menu-item"><a class="aLink" href="#">Profile</a></li>
+                <li class="menu-item"><a class="aLink" href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- headerここまで -->
+    <!-- mainここから -->
+    <main>
+        <article>
+            <h1>News</h1>
+            <div id="flexBox">
+                <div class="item">
+                    <p>20xx/xx/xx</p>
+                    <img src="images/news1.jpg" alt="news1">
+                    <p class="text">コロナウィルス感染対策について</p>
+                </div>
+                <div class="item">
+                    <p>20xx/xx/xx</p>
+                    <img src="images/news2.jpg" alt="news2">
+                    <p class="text">店内リニューアル</p>
+                </div>
+                <div class="item">
+                    <p>20xx/xx/xx</p>
+                    <img src="images/news3.jpg" alt="news3">
+                    <p class="text">新メニュー登場！</p>
+                </div>
+            </div>
+            <div class ="rightLink"><a href="#">view more</a></div>
+        </article>
+    </main>
+    <!-- mainここまで -->
     <script src="javaScriptCode.js"></script>
 </body>
 
