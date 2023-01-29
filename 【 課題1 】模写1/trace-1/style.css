@@ -1,67 +1,160 @@
+/* ------------------------------------ヘッダーcss */
 header {
   display: flex;
   width: 100%;
   height: 70px;
-  background-color: rgb(63, 63, 63);
+  background-color: #333333;
   align-items: center;
 }
- 
-.title {
+
+.siteTitle {
   margin-right: auto;
   padding: 30px;
   color: #ffffff;
 }
 
-.menu-group{
+.menuGroup {
   padding: 30px;
 }
 
-.menu-item {
+.menuItem {
   list-style: none;
   display: inline-block;
   padding: 10px;
-  color: #ffffff;
 }
 
-.aLink{
+.menuLink {
+  text-align: right;
   color: #ffffff;
-  text-decoration:none
+  text-decoration: none
 }
-
-main{
+/* ------------------------------------ニュースcss */
+#newsBox {
   padding: 30px;
-}
-
-#flexBox{
-  display:flex;
+  display: flex;
   width: 100%;
-  height:auto;
-  gap: 20px;
-}
-.boxItem{
-  border:5px solid #ddd;
-}    
-
-img{
-  height: 300px;
-  width: 400px;
+  height: auto;
+  gap: 30px;
 }
 
-.text{
+.newsImg {
+  height: 250px;
+  width: 350px;
+}
+
+.newsText {
   margin-top: 0;
   text-align: center;
 }
 
-p{
+/* ------------------------------------ギャラリーcss */
+
+.galleryBox {
+  padding: 30px;
+  display: flex;
+  width: 70%;
+  height: auto;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+p {
   margin-bottom: 0;
+  margin-top: 0px;
 }
 
-a{
-  text-align: right;
+
+main {
+  width: 80%;
+  padding: 30px;
+  flex:2;
 }
 
-.rightLink{
+article {
+  display: flex;
+  width: 70%;
+  flex-wrap: wrap;
+}
+
+.galleryImg {
+  height: 300px;
+    width: 400px;
+    padding: 0.3%;
+}
+
+.profileImg {
+  height: 150px;
+  width: 200px;
+}
+
+.profileBox {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  text-align: center;
+}
+
+.profileItem{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+footer {
+  background: #333333;
+  color: #ffffff;
+  height: 250px;
+  display: flex;
+  align-items: left;
+}
+
+li{
+  list-style: none;
+}
+
+ul{
+  padding-left: 0;
+}
+
+.varMenu{
+  text-align: left;
+}
+
+ul.right {
+  margin-left: auto;
+}
+
+.footerMain{
+  display: flex;
+  width: 100%;
+  height: auto;
+  gap: 30px;
+}
+
+/* 共通css */
+#rightLink {
+  color: #000000;
+  text-decoration: none
+}
+
+.linkClass{
   text-align: right;
-  color: rgba(0, 0, 0, 0);
-  text-decoration:none
+  width: 100%;
+}
+
+h1 {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-flow: column;
+  min-height: 100vh;
+}
+
+.menuText{
+  padding: 30px 0px 0px 30px;
 }
