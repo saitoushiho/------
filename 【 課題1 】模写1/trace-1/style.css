@@ -9,7 +9,7 @@ header {
 
 .siteTitle {
   margin-right: auto;
-  padding: 30px;
+
   color: #ffffff;
 }
 
@@ -50,12 +50,9 @@ header {
 /* ------------------------------------ギャラリーcss */
 
 .galleryBox {
-  padding: 30px;
-  display: flex;
   width: 70%;
   height: auto;
   gap: 30px;
-  flex-wrap: wrap;
 }
 
 p {
@@ -66,19 +63,18 @@ p {
 
 main {
   width: 80%;
-  padding: 30px;
+
   flex:2;
 }
 
 article {
   display: flex;
-  width: 70%;
-  flex-wrap: wrap;
+  width: 100%;
 }
 
-.galleryImg {
-  height: 300px;
-    width: 400px;
+.galleryItem img {
+  height: 20vw;
+    width: 25vw;
     padding: 0.3%;
 }
 
@@ -99,6 +95,7 @@ article {
   flex-direction: column;
   text-align: center;
   align-items: center;
+  width: 20vw;
 }
 
 footer {
@@ -122,7 +119,7 @@ ul{
 }
 
 ul.right {
-  margin-left: auto;
+  margin-right: auto;
 }
 
 .footerMain{
@@ -155,6 +152,3 @@ body {
   min-height: 100vh;
 }
 
-.menuText{
-  padding: 30px 0px 0px 30px;
-}
